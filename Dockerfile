@@ -15,4 +15,4 @@ RUN pip install -r requirements.txt
 EXPOSE 8080
 
 # Run the script when the container starts
-CMD ["python", "script.py"]
+CMD ["python", "tradebot.py"]
